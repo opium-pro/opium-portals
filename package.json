@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "rm -rf ./dist && tsc",
+    "clear": "rm -fr ./dist && rm -rf node_modules && rm -f package-lock.json",
+    "release": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
