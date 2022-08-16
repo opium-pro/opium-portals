@@ -11,8 +11,8 @@ npm i opium-portals
 import { PortalsProvider } from 'opium-portals'
 
 const App = () => <PortalsProvider>
-  >>> Place your app here <<<
-  >>> All portals will be placed right after your app <<<
+  Place your app here.
+  All portals will be placed right after your app.
 </PortalsProvider>
 ```
 
@@ -24,8 +24,8 @@ import { PortalsProvider } from 'opium-portals'
 const Wrapper = ({children}) => children
 
 const App = () => <PortalsProvider Wrapper={Wrapper}>
-  >>> Place your app here <<<
-  >>> All portals will be placed right after your app <<<
+  Place your app here.
+  All portals will be placed right after your app.
 </PortalsProvider>
 ```
 
@@ -34,7 +34,7 @@ const App = () => <PortalsProvider Wrapper={Wrapper}>
 import { Portal } from 'opium-portals'
 
 const MyComponent = () => <Portal>
-  >>> Your code here <<<
+  Your code here
 </Portal>
 ```
 
@@ -42,7 +42,7 @@ const MyComponent = () => <Portal>
 ```jsx
 import { withPortal } from 'opium-portals'
 
-const MyComponent = withPortal(() => '>>> Your code here <<<')
+const MyComponent = withPortal(() => 'Your code here')
 ```
 
 to call your component inside the portal, use `inPortal` prop
