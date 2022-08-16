@@ -1,0 +1,26 @@
+{
+  "name": "opium-portals",
+  "version": "1.0.0",
+  "description": "Portals for React Native",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opium-pro/opium-portals.git"
+  },
+  "author": "opium.pro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opium-pro/opium-portals/issues"
+  },
+  "homepage": "https://github.com/opium-pro/opium-portals#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "nodemon": "^2.0.19",
+    "react": "^18.2.0",
+    "typescript": "^4.7.4"
+  }
+}
